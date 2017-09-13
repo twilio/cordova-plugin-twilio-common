@@ -1,0 +1,34 @@
+{
+  "name": "cordova-plugin-twilio-common",
+  "version": "0.0.1",
+  "description": "Cordova plugin for Twilio Common",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/twilio/cordova-plugin-twilio-common.git"
+  },
+  "bugs": {
+    "url": "https://github.com/twilio/cordova-plugin-twilio-common/issues"
+  },
+  "scripts": {
+    "prepare": "node_modules/copyfiles/copyfiles node_modules/twilio-common/dist/twilio-common*.js www/. -f"
+  },
+  "cordova": {
+    "id": "cordova-plugin-twilio-common",
+    "platforms": []
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios",
+    "cordova-browser",
+    "twilio",
+    "twilio-common",
+    "accessmanager"
+  ],
+  "author": "Twilio",
+  "license": "BSD-3-Clause",
+  "devDependencies": {
+    "copyfiles": "^1.2.0",
+    "twilio-common": "0.1.7"
+  }
+}
