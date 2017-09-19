@@ -1,6 +1,6 @@
 {
   "name": "cordova-plugin-twilio-common",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Cordova plugin for Twilio Common",
   "repository": {
     "type": "git",
