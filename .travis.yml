@@ -19,6 +19,7 @@ script:
     - export PACKAGE_VERSION=$(node -p "require('./package.json').version")
 deploy:
     provider: npm
+    skip_cleanup: true
     email: ${AUTHOR_EMAIL_ADDR}
     api_key: ${AUTHOR_NPM_API_KEY}
     tag: latest
